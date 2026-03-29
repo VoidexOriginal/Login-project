@@ -1,4 +1,4 @@
-#Databasw for check
+#Database for check
 
 users = {
  "alex": "1234",
