@@ -1,9 +1,14 @@
+# import user database
 import users_data
 
-username = input("kullanıcı adı: ")
-password = input("şifre: ")
 
+# get input from user
+username = input("username: ")
+password = input("password: ")
+
+
+# validate user credentials
 if username in users_data.users and users_data.users[username] == password:
-    print("giriş başarılı")
+    print("login successful")
 else:
-    print("hatalı giriş")
+    print("invalid username or password")
